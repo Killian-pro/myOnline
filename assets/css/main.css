@@ -981,7 +981,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width:80%;
+			width:100%;
 		}
 
 		.image.left {
