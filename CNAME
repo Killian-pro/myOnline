@@ -1,4 +1,4 @@
-  www.cluzel-killian.fr                     IN      A
-  www.cluzel-killian.fr              3592    IN      CNAME   Killian-pro.github.io.
-  Killian-pro.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER. 
+  ;www.cluzel-killian.fr.                     IN      A
+  www.cluzel-killian.fr.              3592    IN      CNAME   Killian-pro.github.io.
+  Killian-pro.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER . 
    GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
