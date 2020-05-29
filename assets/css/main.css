@@ -36,7 +36,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-
 blockquote, q {
 	quotes: none;
 }
@@ -1191,7 +1190,7 @@ input, select, textarea {
 		}
 
 	footer {
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 /* Table */
@@ -2036,7 +2035,7 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 1em 0 6em 0;
 		}
 
 			.main.style3 .content > header {
@@ -2176,7 +2175,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0;
 		line-height: 1em;
-		padding: 1.5em;
+		padding: 0.5em;
 		background: #39454b;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
@@ -2214,7 +2213,7 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				line-height: 1.5em;
+				line-height: 0.5em;
 				text-align: center;
 				padding: 2em 1em 2em 1em;
 			}
