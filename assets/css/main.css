@@ -2310,3 +2310,70 @@ input, select, textarea {
 			}
 
 		}
+/* MODAL */
+.modal-wrapper {
+    align-items: center;
+	background-color: rgba(100, 100, 100, 0.5);
+	color: black;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1000;
+}
+
+.modal-wrapper.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-window {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transform: scale(0);
+	transition: 0.2s ease-in-out all;
+	width: 50%;
+	height: 50%;
+}
+
+.modal-wrapper.visible .modal-window {
+    transform: scale(1);
+}
+
+.modal-header {
+    align-items: center;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.close-modal-button {
+    border: none;
+    background-color: transparent;
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.2em;
+}
+
+.close-modal-button:hover {
+    color: black;
+}
+
+.modal-trigger, a {
+    color: rgb(10, 47, 255);
+    cursor: pointer;
+    text-decoration: underline;
+}
