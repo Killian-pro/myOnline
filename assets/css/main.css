@@ -2342,8 +2342,13 @@ input, select, textarea {
     padding: 20px;
     transform: scale(0);
 	transition: 0.2s ease-in-out all;
-	width: 50%;
-	height: 50%;
+	width: 70%;
+	text-align: center;
+	display: inline-block
+}
+.modal-window>p
+{
+padding-top: 2%;
 }
 
 .modal-wrapper.visible .modal-window {
