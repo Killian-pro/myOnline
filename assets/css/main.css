@@ -2269,6 +2269,16 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	.link
+	{
+		background-size: 256px 256px, cover;
+		background-color: black;
+		color:white;
+		font-size: 60%;
+		text-align: center;
+		
+	}
+
 /* Contact */
 
 	#contact {
