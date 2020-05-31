@@ -2310,6 +2310,10 @@ input, select, textarea {
 			#contact .box {
 				padding: 1.5em 1.5em 2em 1.5em;
 			}
+			#intro
+			{
+				background-position-x:85%;
+			}
 
 		}
 
@@ -2317,6 +2321,10 @@ input, select, textarea {
 
 			#contact .box {
 				padding: 1em 1em 2em 1em;
+			}
+			#intro
+			{
+				background-position-x:85%;
 			}
 
 		}
