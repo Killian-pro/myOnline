@@ -2409,3 +2409,50 @@ padding-top: 2%;
     cursor: pointer;
     text-decoration: underline;
 }
+
+.hr1
+{
+	margin: 0;
+  	padding: 3px 0;
+  	border: none;
+  	background-color: #98c593;
+  	
+}
+
+.trans--grow90{
+	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+	transition: width 4s  ease-out;
+	width : 75%;
+  }
+  
+.trans--grow40{
+	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+	transition: width 4s  ease-out;
+	width : 40%;
+  }
+.grow90{
+	width:1%;
+  } 
+
+.grow40{
+	width:1%;
+  }
+
+.trans--grow60{
+	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+	transition: width 4s  ease-out;
+	width : 60%;
+  }
+  
+.trans--grow95{
+	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+	transition: width 4s  ease-out;
+	width : 85%;
+  }
+.grow60{
+	width:1%;
+  }
+
+.grow95{
+	width:1%;
+  }

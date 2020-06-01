@@ -146,6 +146,45 @@
 							enter:		function() { $(this).removeClass('inactive'); },
 							leave:		function() { $(this).addClass('inactive'); }
 						});
+					$('.trans--grow90')
+						.scrollex({
+							mode:		'default',
+							delay:		500,
+							initialize:	function() { $(this).addClass('grow90'); },
+							terminate:	function() { $(this).removeClass('grow90'); },
+							enter:		function() { $(this).removeClass('grow90'); },
+							leave:		function() { $(this).addClass('grow90'); },
+						});
+	
+					$('.trans--grow95')
+						.scrollex({
+							mode:		'default',
+							delay:		500,
+							initialize:	function() { $(this).addClass('grow95'); },
+							terminate:	function() { $(this).removeClass('grow95'); },
+							enter:		function() { $(this).removeClass('grow95'); },
+							leave:		function() { $(this).addClass('grow95'); },
+						});
+	
+					$('.trans--grow60')
+						.scrollex({
+							mode:		'default',
+							delay:		500,
+							initialize:	function() { $(this).addClass('grow60'); },
+							terminate:	function() { $(this).removeClass('grow60'); },
+							enter:		function() { $(this).removeClass('grow60'); },
+							leave:		function() { $(this).addClass('grow60'); },
+						});
+	
+					$('.trans--grow40')
+						.scrollex({
+							mode:		'default',
+							delay:		500,
+							initialize:	function() { $(this).addClass('grow40'); },
+							terminate:	function() { $(this).removeClass('grow40'); },
+							enter:		function() { $(this).removeClass('grow40'); },
+							leave:		function() { $(this).addClass('grow40'); },
+						});
 
 				// Contact.
 					$('#contact')
@@ -177,6 +216,17 @@
 					$('#contact')
 						.unscrollex();
 
+					$('.trans--grow40')
+						.unscrollex();
+
+					$('.trans--grow90')
+						.unscrollex();
+					
+					$('.trans--grow95')
+						.unscrollex();
+					
+					$('.trans--grow60')
+						.unscrollex();
 			};
 
 			breakpoints.on('<=small', off);
