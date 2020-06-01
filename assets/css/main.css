@@ -2305,14 +2305,23 @@ input, select, textarea {
 			transform: translateY(100%);
 		}
 
-		@media screen and (max-width: 736px) {
+               @media screen and (max-width: 736px) {
 
 			#contact .box {
 				padding: 1.5em 1.5em 2em 1.5em;
 			}
 			#intro
 			{
-				background-position-x:65%;
+				background-position-x:105%;
+			}
+
+		}
+
+                @media screen and (max-width: 990px) {
+
+			#intro
+			{
+				background-position-x:85%;
 			}
 
 		}
