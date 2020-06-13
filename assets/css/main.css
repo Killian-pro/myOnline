@@ -2456,3 +2456,36 @@ padding-top: 2%;
 .grow95{
 	width:1%;
   }
+#header a,  #header a > span {
+	position: relative;
+	color: inherit;
+	text-decoration: none;
+	line-height: 2px;
+  }
+#header a:before,  #header a:after, #header a > span:before, #header a > span:after {
+	content: '';
+	position: absolute;
+	transition: transform .5s ease;
+  }
+.effect4 {
+	display: inline-block;
+	overflow: hidden;
+}
+.effect4:before {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: none;
+	border-bottom-style: dashed ;
+	border-left: solid;
+	border-right: solid;
+	border-width: 0.5px;
+	transform: translateY(-100%);
+	background-color: #98c593;
+	opacity: 0.4;
+}
+
+.effect4:hover:before {
+	transform: translateY(0);
+}
