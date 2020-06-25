@@ -683,7 +683,7 @@ input, select, textarea {
 		button.down {
 			width: 5em;
 			height: 5em;
-			line-height: 4.5em;
+			line-height: 3.5em;
 			padding: 0;
 			background-image: url("images/dark-arrow.svg");
 			background-position: center center;
@@ -699,7 +699,7 @@ input, select, textarea {
 			button.down.anchored {
 				bottom: 0;
 				border-bottom: 0;
-				border-radius: 3em 3em 0 0;
+				border-radius: 0em 3em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
 			}
@@ -735,7 +735,7 @@ input, select, textarea {
 		.button.style2,
 		button.style2 {
 			background-color: transparent;
-			border: solid 2px #e5e6e7;
+			border: solid 1px #e5e6e7;
 			color: inherit;
 		}
 
@@ -2422,13 +2422,13 @@ padding-top: 2%;
 .trans--grow90{
 	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
 	transition: width 4s  ease-out;
-	width : 75%;
+	width : 65%;
   }
   
 .trans--grow40{
 	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
 	transition: width 4s  ease-out;
-	width : 40%;
+	width : 20%;
   }
 .grow90{
 	width:1%;
@@ -2441,13 +2441,13 @@ padding-top: 2%;
 .trans--grow60{
 	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
 	transition: width 4s  ease-out;
-	width : 60%;
+	width : 40%;
   }
   
 .trans--grow95{
 	-webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
 	transition: width 4s  ease-out;
-	width : 85%;
+	width : 75%;
   }
 .grow60{
 	width:1%;
